@@ -25,12 +25,14 @@ function stringValue() {
   var wordDivision = stringLength / wordLength;
   var wordMultiply = stringLength * wordLength;
 
+  console.log(`Given String is : ${givenString}`);
   console.log(`Given String length is : ${stringLength}`);
   console.log(`total number of words are in given string is : ${wordLength}`);
   console.log(
     `String length divided by number of words in String is : ${wordDivision}`
   );
   console.log(``);
+  console.log(`Given String is : ${givenString}`);
   console.log(`Given String length is : ${stringLength}`);
   console.log(`total number of words are in given string is : ${wordLength}`);
   console.log(
